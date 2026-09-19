@@ -551,8 +551,51 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Move
       m_Flags: 8
+    - m_Name: 2D Vector
+      m_Id: d7fe80c9-2400-4694-82fd-29a942154b96
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 4
+    - m_Name: up
+      m_Id: e109c56c-2fc1-46a1-8c58-871e355e911b
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: down
+      m_Id: 1b954906-4425-40c0-9e90-78c071f7b98f
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: left
+      m_Id: bc306ce1-0e56-4e33-83e9-2465cf8e3046
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
+    - m_Name: right
+      m_Id: a264dd8f-746f-4769-bed3-e3cc63bea195
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 8
     m_Flags: 0
     m_Priority: 0
+  moveInput: {x: 0, y: 0}
+  speed: 10
+  xRange: 10
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0
