@@ -35,5 +35,10 @@ public class PlayerController : MonoBehaviour
             moveInput = moveAction.ReadValue<Vector2>();
 
         transform.Translate(Vector3.right * speed * Time.deltaTime * moveInput.x);
+
+        if (fireAction.triggered)
+        {
+            Instantiate(projectileObject, transform.position, projectileObject.transform.rotation);
+        }
     }
 }
