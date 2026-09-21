@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 
     public float speed = 10.0f;
 
-    public float xRange = 10.0f;
+    public float xRange = 15.0f;
 
     public GameObject projectileObject;
 
