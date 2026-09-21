@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5703518702455028910}
   - component: {fileID: 6732659204797174191}
   - component: {fileID: 1638581669070185328}
+  - component: {fileID: -3108577800635872799}
   m_Layer: 0
   m_Name: Food
   m_TagString: Untagged
@@ -169,3 +170,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-3108577800635872799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4207744975175492853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ab937af2502064bb5fdb8a5e90ebb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions

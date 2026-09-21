@@ -1839,6 +1839,7 @@ GameObject:
   - component: {fileID: 1252229917437804703}
   - component: {fileID: 6363770575657359883}
   - component: {fileID: 3547950462024564766}
+  - component: {fileID: 9100228929890370362}
   m_Layer: 0
   m_Name: Cow
   m_TagString: Untagged
@@ -1932,6 +1933,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20, y: 30.512682, z: 48.003006}
   m_Center: {x: -0, y: 14.755546, z: -0.57581794}
+--- !u!114 &9100228929890370362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7964287171171789599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51ab937af2502064bb5fdb8a5e90ebb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &8037260518436191480
 GameObject:
   m_ObjectHideFlags: 0
